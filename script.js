@@ -1,8 +1,8 @@
-function getHours (){
-    const hora = document.querySelectorAll("span")[0]
-    const minuto = document.querySelectorAll("span")[1]
-    const segundo = document.querySelectorAll("span")[2]
+const hora = document.querySelectorAll("span")[0]
+const minuto = document.querySelectorAll("span")[1]
+const segundo = document.querySelectorAll("span")[2]
 
+function getHours (){
     const data = new Date()
     const horas = data.getHours()
     const minutos = data.getMinutes()
